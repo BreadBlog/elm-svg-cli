@@ -1,0 +1,37 @@
+{
+  "name": "elm-svg-cli",
+  "version": "0.0.1",
+  "description": "Convert svg assets to elm",
+  "cli": {
+    "elm-svg": "cli/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "test": "mocha src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BreadBlog/elm-svg-cli.git"
+  },
+  "keywords": [
+    "svg",
+    "elm",
+    "convert",
+    "cli"
+  ],
+  "author": "Parasrah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BreadBlog/elm-svg-cli/issues"
+  },
+  "homepage": "https://github.com/BreadBlog/elm-svg-cli#readme"
+}

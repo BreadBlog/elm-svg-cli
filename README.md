@@ -1,2 +1,5 @@
 # elm-svg-cli
-convert svg assets to elm
+
+A command line utility that converts svg's into elm
+
+WIP under active development
