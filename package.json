@@ -13,10 +13,11 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "ramda": "^0.26.1"
   },
   "scripts": {
-    "test": "mocha src/**/*.test.js"
+    "test": "mocha lib/**/*.test.js"
   },
   "repository": {
     "type": "git",
